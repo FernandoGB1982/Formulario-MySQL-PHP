@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imagenes/fondo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @font-face {
+    font-family: 'vintage2';
+    src: url('fuentes/vintage2.ttf') ;
+  }
+
+  h1{
+    color: rgb(196, 13, 92);
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'vintage2';
+    font-style: italic;
+    font-size: 60px;
+  }
+
+  h2 {
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  a{
+    color: blue;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(198, 100, 207,0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+
+
+  input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input[type=date]{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+
+  table{
+    background-color:rgb(198, 100, 207,0.8);
+    text-align: center;
+    font-size: small;
+    width: max-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+  }
+
+  th{
+    width: max-content;
+    padding: 1em;
+    border: 1px solid rgb(185, 169, 169);
+    background-color: beige;
+    color: #555;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+  }
+
+  td{
+    width: max-content;
+    padding: 1em;
+    border: 1px solid rgb(185, 169, 169);
+  }
+
+  tr:nth-child(odd) {
+    background-color: lightblue;
+    color: black;
+  }
+
+  tr:nth-child(even) {
+    background-color: darkseagreen;
+    color: white;
+  }
+
+  tr:hover{
+    background-color: lightgrey;
+    color:blue;
+  }
+
+  .ejercicios{
+    text-align: center;
+    max-width: 200px;
+    padding: 10px;
+    background-color: beige;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(185, 169, 169, 0.4);
+  }
+  
+  #volver{
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  
+  #registrar{
+    background-color:beige;
+    border: 0;
+  }
+
+  #salida {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
